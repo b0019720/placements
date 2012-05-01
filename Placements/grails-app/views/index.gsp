@@ -89,12 +89,7 @@
 				<li>Services: ${grailsApplication.serviceClasses.size()}</li>
 				<li>Tag Libraries: ${grailsApplication.tagLibClasses.size()}</li>
 			</ul>
-			<h1>Installed Plugins</h1>
-			<ul>
-				<g:each var="plugin" in="${applicationContext.getBean('pluginManager').allPlugins}">
-					<li>${plugin.name} - ${plugin.version}</li>
-				</g:each>
-			</ul>
+	
 		</div>
 		<div id="page-body" role="main">
 			<h1>Welcome to Grails</h1>
@@ -103,11 +98,11 @@
 			   content you may choose. Below is a list of controllers that are currently deployed in this application,
 			   click on each to execute its default action:</p>
 
-                                <ul>
-                                     <li> <a href="../Placements/application/"> list of apps </a>	
-                                <ul>
-                                     <li> <a href="../Placements/student/"> list of students </a>
-	
+       <ul>
+          <li> <a href="../Placements/application/"> List of Applications </a></li>	
+         <li> <a href="../Placements/student/"> List of Students </a></li>
+         <li> <a href="../Placements/status/"> List of Status Codes </a></li>	
+         <li> <a href="../Placements/placement/"> List of Placement Opportunity </a></li>
 </ul>
 
 			</div>
