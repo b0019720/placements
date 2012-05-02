@@ -3,8 +3,10 @@ package placements
 class Student {
 
         String name
-        String CourseCode
-        String Notes
+        String courseCode
+        String notes
+
+        
 
     static constraints = {
     }

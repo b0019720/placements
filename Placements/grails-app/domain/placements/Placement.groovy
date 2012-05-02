@@ -2,10 +2,11 @@ package placements
 
 class Placement {
        
-        String JobTitle
+        String jobTitle
         String companyName 
         Status status
 
     static constraints = {
     }
 }
+

@@ -5,7 +5,7 @@ class Application {
       Student student
       Placement placement
       Status status
-      String timeStamp
+      long timeStamp = System.currentTimeMillis()
 
 
     static constraints = {
